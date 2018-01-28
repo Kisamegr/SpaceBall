@@ -36,7 +36,7 @@ public class MainCamera : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		Vector3 targetpos = new Vector3 (player.position.x, zoom_max + player.position.y, player.position.z - 115);
+		Vector3 targetpos = new Vector3 (player.position.x, zoom_max + player.position.y, player.position.z - 100);
 
 		//transform.position = Vector3.Slerp (transform.position, targetpos, Time.deltaTime * camera_smooth);
 		transform.position = targetpos;
